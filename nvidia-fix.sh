@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo mhwd -i pci video-nvidia
+sudo mhwd -i pci video-nvidia-440xx
 sudo pacman --noconfirm -S linux54-headers linux55-headers xorg-xrandr xf86-video-intel git
 sudo pacman --noconfirm -S acpi_call-dkms
 sudo modprobe acpi_call
